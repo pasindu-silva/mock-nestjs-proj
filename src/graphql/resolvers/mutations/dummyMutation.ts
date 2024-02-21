@@ -10,7 +10,10 @@ async function dummyMutation(
   if( tempVariable === 12 ){
     console.log("This is an error");
   }
-  
+
+  in for test 
+  console.log("test")
+
   console.log(`Mutation with inputs firstInput=${firstInput} and secondInput=${secondInput}`);
 
   return true;
