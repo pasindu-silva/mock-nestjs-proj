@@ -6,6 +6,11 @@ async function dummyMutation(
 ): Promise<boolean> {
   const { input: { firstInput, secondInput } } = args;
 
+  const tempVariable = 5;
+  if( tempVariable === 12 ){
+    console.log("This is an error");
+  }
+  
   console.log(`Mutation with inputs firstInput=${firstInput} and secondInput=${secondInput}`);
 
   return true;
